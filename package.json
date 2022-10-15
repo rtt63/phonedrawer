@@ -1,0 +1,21 @@
+{
+  "name": "phonedrawer",
+  "version": "0.0.1",
+  "description": "The most minimalistic way to format phone numbers by a string pattern",
+  "main": "index.js",
+  "author": "Dmitry Komalov",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
+}
