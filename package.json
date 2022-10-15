@@ -17,5 +17,13 @@
   ],
   "scripts": {
     "build": "tsc"
-  }
+  },
+  "keywords": [
+    "phone mask",
+    "phone formatting",
+    "format phone",
+    "phone",
+    "phone number",
+    "phone formatter"
+  ]
 }
