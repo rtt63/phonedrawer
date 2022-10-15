@@ -8,7 +8,7 @@ The most minimalistic way to format phone numbers by a string pattern
 
 ## Motivation
 
-What if we don't need no input mask and the only goal is to format phone numbers in specific way? There is a extreamely lightweight and simple solution right for that case!
+What if we don't need no input mask and the only goal is to format phone numbers in a specific way? There is an extreamely lightweight and simple solution right for that case!
 
 ### Usage with example
 
