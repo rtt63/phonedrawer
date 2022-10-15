@@ -10,7 +10,15 @@ The most minimalistic way to format phone numbers by a string pattern
 
 What if we don't need no input mask and the only goal is to format phone numbers in specific way? There is a extreamely lightweight and simple solution right for that case!
 
-### Usage example
+### Usage with example
+
+yarn
+`yarn add phonedrawer`
+
+npm
+`npm i -s phonedrawer`
+
+Then in your code
 
 ```
 import { Config, AsceticPhone } from 'phonedrawer'
