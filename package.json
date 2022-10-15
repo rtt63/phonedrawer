@@ -1,6 +1,6 @@
 {
   "name": "phonedrawer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The most minimalistic way to format phone numbers by a string pattern",
   "main": "index.js",
   "author": "Dmitry Komalov",
