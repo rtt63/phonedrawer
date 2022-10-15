@@ -5,7 +5,7 @@ type Config = Record<string, string>;
 type Prefixes = Set<string>;
 type CodeToBodyMap = Map<string, string>;
 
-class AsceticPhone {
+class Phonedrawer {
   config: Config;
   prefixes: Prefixes;
   codeToBodyMap: CodeToBodyMap;
@@ -74,4 +74,4 @@ class AsceticPhone {
 }
 
 export type { Config };
-export { AsceticPhone };
+export { Phonedrawer };
