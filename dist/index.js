@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AsceticPhone = void 0;
+exports.Phonedrawer = void 0;
 const utils_1 = require("./utils");
-class AsceticPhone {
+class Phonedrawer {
     constructor(config) {
         this.config = config;
         const [prefixes, codeToBodyMap] = Object.keys(config).reduce((acc, key) => {
@@ -46,4 +46,4 @@ class AsceticPhone {
         return resultValue;
     }
 }
-exports.AsceticPhone = AsceticPhone;
+exports.Phonedrawer = Phonedrawer;
