@@ -1,6 +1,6 @@
 {
   "name": "phonedrawer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "The most minimalistic way to format phone numbers by a string pattern",
   "main": "index.js",
   "author": "Dmitry Komalov",
@@ -17,6 +17,10 @@
   ],
   "scripts": {
     "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Komalov/phonedrawer.git"
   },
   "keywords": [
     "phone mask",
