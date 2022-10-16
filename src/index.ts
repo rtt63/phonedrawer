@@ -54,22 +54,31 @@ class Phonedrawer {
       return phone;
     }
 
-    let resultValue: string = "";
+    const bodyPhone: string | undefined = phone
+      .replace(targetPrefix, "")
+      .match(/[0-9]/g)
+      ?.join("");
+
+    if (!bodyPhone) {
+      return phone;
+    }
+
+    let result: string = "";
 
     let maskIndex = 0;
     let phoneIndex = 0;
     while (maskIndex < targetMask.length) {
-      if (targetMask[maskIndex] === " ") {
-        resultValue += " ";
+      if (targetMask[maskIndex] === "X") {
+        result += bodyPhone[phoneIndex];
+        phoneIndex += 1;
+        maskIndex += 1;
+      } else {
+        result += targetMask[maskIndex];
         maskIndex += 1;
       }
-
-      resultValue += phone[phoneIndex];
-      maskIndex += 1;
-      phoneIndex += 1;
     }
 
-    return resultValue;
+    return result;
   }
 }
 
